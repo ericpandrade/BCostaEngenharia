@@ -1,0 +1,80 @@
+.ContactContainer {
+  margin-top: 2.5rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .ContactBox {
+    div {
+      button {
+        appearance: none;
+        background: transparent;
+        border: none;
+        display: flex;
+
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          gap: 1rem;
+          margin-bottom: 1rem;
+        }
+
+        img {
+          width: 1.75rem;
+          color: var(--dark-blue);
+
+          &:hover {
+            transform: translateY(-0.35rem);
+            transition: 0.3s;
+          }
+        }
+      }
+    }
+
+    h1 {
+      width: fit-content;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 1.5rem;
+      border-bottom: 2px solid var(--light-blue);
+    }
+  }
+
+  .ContactImages {
+    display: flex;
+    align-items: center;
+
+    div {
+      display: flex;
+      flex-direction: column;
+
+      span {
+        color: var(--dark-blue);
+        text-align: center;
+        margin-bottom: 0.5rem;
+        font: 500 0.8rem Poppins, sans-serif;
+      }
+    }
+
+    img {
+      width: 200px;
+
+      &:first-child {
+        margin-right: 6rem;
+      }
+
+      &:last-child {
+        width: 120px;
+      }
+    }
+  }
+
+  .Divider {
+    width: 2px;
+    height: 140px;
+    background: #848c8e;
+    border-radius: 1rem;
+  }
+}

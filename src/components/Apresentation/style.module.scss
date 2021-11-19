@@ -1,0 +1,99 @@
+.ApresentationContainer {
+  background: var(--dark-blue);
+  color: var(--white);
+
+  .ApresentationBox {
+    display: flex;
+
+    align-items: center;
+
+    @media (max-width: 720px) {
+      display: grid;
+    }
+
+    img {
+      width: 50%;
+
+      @media (max-width: 720px) {
+        width: 100%;
+      }
+    }
+
+    div {
+      text-align: center;
+      margin: 5rem auto;
+      padding: 0 2.25rem;
+
+      @media (max-width: 720px) {
+        padding: 0;
+        margin: 3rem 1.25rem;
+      }
+
+      @media (min-width: 1500px) {
+        width: 900px;
+      }
+
+      p {
+        @media (min-width: 1500px) {
+          font-size: 1.5rem;
+        }
+      }
+
+      h2 {
+        font: 500 2.25rem Poppins, sans-serif;
+        margin-bottom: 1rem;
+
+        @media (min-width: 1500px) {
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+
+  .AchievementsBar {
+    background: var(--yellow);
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    gap: 1rem;
+
+    div {
+      text-align: center;
+      color: var(--light-blue);
+
+      &:first-child {
+        margin-left: 0.75rem;
+      }
+
+      &:last-child {
+        margin-right: 0.75rem;
+      }
+
+      p {
+        font: 500 3rem Poppins, sans-serif;
+
+        @media (max-width: 720px) {
+          font-size: 2rem;
+        }
+      }
+
+      span {
+        font: 500 1.15rem Poppins, sans-serif;
+
+        @media (max-width: 720px) {
+          font-size: 0.8rem;
+        }
+      }
+    }
+
+    .Divider {
+      background: #848c8e;
+      width: 2px;
+      height: 50%;
+      border-radius: 1rem;
+    }
+  }
+}

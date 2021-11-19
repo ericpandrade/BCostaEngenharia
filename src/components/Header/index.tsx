@@ -34,12 +34,14 @@ const Header = () => {
           <span></span>
         </button>
       </div>
-      <ul>
-        <li>Início</li>
-        <li>Serviços</li>
-        <li>Quem Somos</li>
-        <li>Contato</li>
-      </ul>
+      <nav>
+        <ul>
+          <li>Início</li>
+          <li>Serviços</li>
+          <li>Quem Somos</li>
+          <li>Contato</li>
+        </ul>
+      </nav>
     </div>
   );
 };
