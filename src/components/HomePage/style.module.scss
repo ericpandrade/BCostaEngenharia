@@ -1,0 +1,61 @@
+.StartContainer {
+  position: relative;
+  height: 100vh;
+  z-index: -1;
+
+  background: url("../../assets/ImagemInicial.jpeg") no-repeat;
+  background-size: cover;
+  background-position: 30% 20%;
+
+  @media (max-width: 720px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 8rem;
+    margin-left: 6.125rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    img {
+      width: 2.25rem;
+    }
+
+    h1 {
+      color: #001d4a;
+      text-align: center;
+    }
+
+    @media (min-height: 1000px) {
+      margin: 9rem 7rem;
+
+      h1 {
+        font-size: 2rem;
+      }
+    }
+
+    @media (min-height: 1500px) {
+      margin: 20rem 10rem;
+
+      h1 {
+        font-size: 4rem;
+      }
+
+      img {
+        height: 5rem;
+      }
+    }
+
+    @media (max-width: 720px) {
+      margin: 9rem 0;
+    }
+  }
+}
