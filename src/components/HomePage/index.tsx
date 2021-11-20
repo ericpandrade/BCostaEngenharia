@@ -11,7 +11,11 @@ const StartPage = () => {
           Construçoẽs &<br />
           Recuperação Estrutural
         </h1>
-        <img src={setaParaBaixo} alt="Seta para baixo" />
+        <button>
+          <a href="#apresentationSection">
+            <img src={setaParaBaixo} alt="Seta para baixo" />
+          </a>
+        </button>
       </div>
     </div>
   );

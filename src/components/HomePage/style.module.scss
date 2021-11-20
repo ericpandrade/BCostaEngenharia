@@ -1,7 +1,6 @@
 .StartContainer {
   position: relative;
   height: 100vh;
-  z-index: -1;
 
   background: url("../../assets/ImagemInicial.jpeg") no-repeat;
   background-size: cover;
@@ -25,8 +24,13 @@
     align-items: center;
     gap: 0.5rem;
 
-    img {
-      width: 2.25rem;
+    button {
+      border: none;
+      background: transparent;
+      appearance: none;
+      img {
+        width: 2.25rem;
+      }
     }
 
     h1 {
