@@ -5,7 +5,7 @@ import apresentation from "../../assets/Apresentacao.jpeg";
 const Apresentation = () => {
   return (
     <div className={styles.ApresentationContainer}>
-      <div className={styles.ApresentationBox}>
+      <div className={styles.ApresentationBox} id="apresentationSection">
         <img src={apresentation} alt="Bcosta Prédio" />
         <div>
           <h2>Quem Somos</h2>
@@ -40,7 +40,9 @@ const Apresentation = () => {
 
         <div>
           <p>21</p>
-          <span>Empreitadas Contratadas</span>
+          <span>
+            Empreitadas <br /> Contratadas
+          </span>
         </div>
       </div>
     </div>

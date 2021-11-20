@@ -9,7 +9,7 @@ import recuperationIcon from "../../assets/recuperacao.png";
 const ServicesPage = () => {
   return (
     <div className={styles.ServicePageContainer}>
-      <div className={styles.ServiceApresentation}>
+      <div className={styles.ServiceApresentation} id="serviceSection">
         <h1>Serviços</h1>
         <p>
           Nossos serviços são focados em toda área da construção civil, como

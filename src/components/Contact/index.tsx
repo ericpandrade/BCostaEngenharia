@@ -2,7 +2,7 @@ import styles from "./style.module.scss";
 
 const Contact = () => {
   return (
-    <div className={styles.ContactContainer}>
+    <div className={styles.ContactContainer} id="contactSection">
       <div className={styles.ContactBox}>
         <h1>Contatos</h1>
         <div>

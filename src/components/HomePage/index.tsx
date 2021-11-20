@@ -4,7 +4,7 @@ import setaParaBaixo from "../../assets/seta-para-baixo.png";
 
 const StartPage = () => {
   return (
-    <div className={styles.StartContainer}>
+    <div className={styles.StartContainer} id="startSection">
       <div>
         <h1>
           Arquitetura <br />
