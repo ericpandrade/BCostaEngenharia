@@ -21,7 +21,7 @@ const Contact = () => {
         <div>
           <button>
             <a
-              href="https://api.whatsapp.com/send?phone=+5585989828188&text=Olá! Gostaria de entrar em contato."
+              href="https://api.whatsapp.com/send?phone=+5585987757467&text=Olá! Gostaria de entrar em contato."
               target="_blank"
               rel="noopener noreferrer"
             >
