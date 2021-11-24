@@ -8,7 +8,7 @@ const StartPage = () => {
       <div>
         <h1>
           Arquitetura <br />
-          Construçoẽs &<br />
+          Construções &<br />
           Recuperação Estrutural
         </h1>
         <button>
